@@ -1,5 +1,5 @@
 # BTP Traffic Event Intelligence System
-### Proactive Dispatch and Resource Optimization Engine (Flipkart Grid 7.0 — Problem Statement 2)
+### Event-Driven Congestion (Planned & Unplanned) (Flipkart GridLock 2.0 — Problem Statement 2)
 
 This repository contains the complete implementation of the **Traffic Event Intelligence System** designed for the Bengaluru Traffic Police (BTP). The system transitions BTP operations from **reactive incident responses** to **proactive resource deployment and simulator-driven dispatching**.
 
