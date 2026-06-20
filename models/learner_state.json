@@ -1,0 +1,147 @@
+{
+  "alpha": 0.1,
+  "ema_risk": {
+    "airport new south road": 46.30020163200466,
+    "bannerghata road": 50.30277344169986,
+    "bellary road 1": 47.67167280945796,
+    "bellary road 2": 45.63207907336766,
+    "cbd 1": 43.484778888368865,
+    "cbd 2": 42.9920531254875,
+    "hennur main road": 49.88863340148848,
+    "hosur road": 47.90824615875053,
+    "irr(thanisandra road)": 41.156469924444025,
+    "magadi road": 44.07909959380509,
+    "mysore road": 50.7288284302932,
+    "non-corridor": 34.915739504094184,
+    "non_corridor": 33.28060293524965,
+    "old airport road": 46.87808306365838,
+    "old madras road": 45.9315115224189,
+    "orr east 1": 42.39151251755484,
+    "orr east 2": 48.41728627311158,
+    "orr north 1": 46.016793033863095,
+    "orr north 2": 46.191635788481605,
+    "orr west 1": 47.04405264796105,
+    "tumkur road": 47.66803967442116,
+    "varthur road": 51.54132561003131,
+    "west of chord road": 49.509089921948515
+  },
+  "beta_priors": {
+    "airport new south road": {
+      "alpha": 6,
+      "beta": 59
+    },
+    "bannerghata road": {
+      "alpha": 7,
+      "beta": 192
+    },
+    "bellary road 1": {
+      "alpha": 33,
+      "beta": 557
+    },
+    "bellary road 2": {
+      "alpha": 13,
+      "beta": 367
+    },
+    "cbd 1": {
+      "alpha": 2,
+      "beta": 24
+    },
+    "cbd 2": {
+      "alpha": 8,
+      "beta": 90
+    },
+    "hennur main road": {
+      "alpha": 5,
+      "beta": 91
+    },
+    "hosur road": {
+      "alpha": 17,
+      "beta": 273
+    },
+    "irr(thanisandra road)": {
+      "alpha": 7,
+      "beta": 80
+    },
+    "magadi road": {
+      "alpha": 11,
+      "beta": 233
+    },
+    "mysore road": {
+      "alpha": 72,
+      "beta": 650
+    },
+    "non-corridor": {
+      "alpha": 329,
+      "beta": 2621
+    },
+    "non_corridor": {
+      "alpha": 1,
+      "beta": 18
+    },
+    "old airport road": {
+      "alpha": 6,
+      "beta": 69
+    },
+    "old madras road": {
+      "alpha": 8,
+      "beta": 245
+    },
+    "orr east 1": {
+      "alpha": 17,
+      "beta": 212
+    },
+    "orr east 2": {
+      "alpha": 4,
+      "beta": 176
+    },
+    "orr north 1": {
+      "alpha": 22,
+      "beta": 247
+    },
+    "orr north 2": {
+      "alpha": 11,
+      "beta": 225
+    },
+    "orr west 1": {
+      "alpha": 4,
+      "beta": 161
+    },
+    "tumkur road": {
+      "alpha": 13,
+      "beta": 442
+    },
+    "varthur road": {
+      "alpha": 9,
+      "beta": 67
+    },
+    "west of chord road": {
+      "alpha": 11,
+      "beta": 159
+    }
+  },
+  "event_counts": {
+    "airport new south road": 63,
+    "bannerghata road": 197,
+    "bellary road 1": 588,
+    "bellary road 2": 378,
+    "cbd 1": 24,
+    "cbd 2": 96,
+    "hennur main road": 94,
+    "hosur road": 288,
+    "irr(thanisandra road)": 85,
+    "magadi road": 242,
+    "mysore road": 720,
+    "non-corridor": 2948,
+    "non_corridor": 17,
+    "old airport road": 73,
+    "old madras road": 251,
+    "orr east 1": 227,
+    "orr east 2": 178,
+    "orr north 1": 267,
+    "orr north 2": 234,
+    "orr west 1": 163,
+    "tumkur road": 453,
+    "varthur road": 74,
+    "west of chord road": 168
+  }
+}

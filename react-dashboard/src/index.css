@@ -1,0 +1,4 @@
+/* Reset only — all styling is in App.css */
+:root {
+  color-scheme: dark;
+}

@@ -1,0 +1,57 @@
+{
+  "weights": {
+    "duration": 0.3,
+    "priority": 0.2,
+    "closure": 0.2,
+    "cause_severity": 0.15,
+    "corridor_importance": 0.1,
+    "rush_hour": 0.05
+  },
+  "cause_severity_map": {
+    "accident": 1.0,
+    "protest": 0.95,
+    "public_event": 0.9,
+    "vip_movement": 0.85,
+    "procession": 0.8,
+    "tree_fall": 0.8,
+    "water_logging": 0.7,
+    "construction": 0.6,
+    "congestion": 0.55,
+    "pot_holes": 0.4,
+    "road_conditions": 0.4,
+    "vehicle_breakdown": 0.35,
+    "others": 0.5
+  },
+  "resource_table": {
+    "Low": {
+      "personnel": 2,
+      "barricades": 0,
+      "patrol_vehicles": 0,
+      "diversion_signs": 0,
+      "estimated_cost_inr": 2000
+    },
+    "Medium": {
+      "personnel": 4,
+      "barricades": 4,
+      "patrol_vehicles": 1,
+      "diversion_signs": 2,
+      "estimated_cost_inr": 8000
+    },
+    "High": {
+      "personnel": 8,
+      "barricades": 8,
+      "patrol_vehicles": 2,
+      "diversion_signs": 4,
+      "estimated_cost_inr": 20000
+    },
+    "Critical": {
+      "personnel": 15,
+      "barricades": 12,
+      "patrol_vehicles": 3,
+      "diversion_signs": 6,
+      "estimated_cost_inr": 50000
+    }
+  },
+  "rush_hour_multiplier": 1.5,
+  "closure_multiplier": 1.3
+}

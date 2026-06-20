@@ -1,0 +1,54 @@
+{
+  "priority_spatial": {
+    "roc_auc": 0.9995030387794527,
+    "pr_auc": 0.9996165860424995,
+    "f1": 0.9993472584856397,
+    "accuracy": 0.9992069785884219,
+    "confusion_matrix": [
+      [
+        989,
+        2
+      ],
+      [
+        0,
+        1531
+      ]
+    ],
+    "optimal_threshold": 0.6174720663420802
+  },
+  "priority_semantic": {
+    "roc_auc": 0.625592448298567,
+    "pr_auc": 0.7130549570428839,
+    "f1": 0.7648725212464589,
+    "accuracy": 0.6379857256145915,
+    "confusion_matrix": [
+      [
+        124,
+        867
+      ],
+      [
+        46,
+        1485
+      ]
+    ],
+    "optimal_threshold": 0.5190481802031081
+  },
+  "closure": {
+    "roc_auc": 0.9997181473137343,
+    "pr_auc": 0.994550041241098,
+    "f1": 0.9934924078091106,
+    "accuracy": 0.9988104678826328,
+    "confusion_matrix": [
+      [
+        2290,
+        3
+      ],
+      [
+        0,
+        229
+      ]
+    ],
+    "optimal_threshold": 0.12537289391335646
+  },
+  "leakage_note": "priority_spatial has AUC ~1.0 because corridor_clean perfectly encodes BTP's priority rule. priority_semantic is the honest model without spatial leakage."
+}
